@@ -1,0 +1,127 @@
+[
+  {
+    "$version": 100000,
+    "$objects": [
+      "$null",
+      {
+        "NSString": 2,
+        "$class": 22,
+        "NSAttributes": 3
+      },
+      "200g granola and one pear\n107 calories gained",
+      {
+        "NS.keys": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "NS.objects": [
+          8,
+          10,
+          18,
+          19
+        ],
+        "$class": 21
+      },
+      "NSParagraphStyle",
+      "MSAttributedStringFontAttribute",
+      "NSKern",
+      "NSColor",
+      {
+        "NSAlignment": 4,
+        "NSTabStops": 0,
+        "NSMinLineHeight": 15,
+        "$class": 9,
+        "NSMaxLineHeight": 15
+      },
+      {
+        "$classname": "NSMutableParagraphStyle",
+        "$classes": [
+          "NSMutableParagraphStyle",
+          "NSParagraphStyle",
+          "NSObject"
+        ]
+      },
+      {
+        "$class": 17,
+        "NSFontDescriptorAttributes": 11
+      },
+      {
+        "NS.keys": [
+          12,
+          13
+        ],
+        "NS.objects": [
+          14,
+          15
+        ],
+        "$class": 16
+      },
+      "NSFontSizeAttribute",
+      "NSFontNameAttribute",
+      12,
+      "AvenirNext-Regular",
+      {
+        "$classname": "NSMutableDictionary",
+        "$classes": [
+          "NSMutableDictionary",
+          "NSDictionary",
+          "NSObject"
+        ]
+      },
+      {
+        "$classname": "NSFontDescriptor",
+        "$classes": [
+          "NSFontDescriptor",
+          "NSObject"
+        ]
+      },
+      0,
+      {
+        "NSRGB": {
+          "type": "Buffer",
+          "data": [
+            49,
+            32,
+            49,
+            32,
+            49,
+            32,
+            48,
+            46,
+            54,
+            0
+          ]
+        },
+        "NSColorSpace": 1,
+        "$class": 20
+      },
+      {
+        "$classname": "NSColor",
+        "$classes": [
+          "NSColor",
+          "NSObject"
+        ]
+      },
+      {
+        "$classname": "NSDictionary",
+        "$classes": [
+          "NSDictionary",
+          "NSObject"
+        ]
+      },
+      {
+        "$classname": "NSAttributedString",
+        "$classes": [
+          "NSAttributedString",
+          "NSObject"
+        ]
+      }
+    ],
+    "$archiver": "NSKeyedArchiver",
+    "$top": {
+      "root": 1
+    }
+  }
+]

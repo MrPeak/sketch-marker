@@ -1,35 +1,38 @@
 {
-  "name": "sketch-parser",
-  "version": "0.1.0",
-  "description": "sketchapp document parser",
-  "main": "index.js",
+  "name": "sketch-marker",
+  "version": "0.0.1",
+  "description": "Marks .sketch file",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "istanbul cover _mocha -- --delay"
+    "test": "mocha --timeout 15000",
+    "ci": "eslint && istanbul cover _mocha -- --delay"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrPeak/sketch-parser.git"
+    "url": "git+https://github.com/MrPeak/sketch-marker.git"
   },
   "keywords": [
     "sketch",
     "sketchapp",
-    "parser"
+    "marker"
   ],
   "author": "mrpeak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MrPeak/sketch-parser/issues"
+    "url": "https://github.com/MrPeak/sketch-marker/issues"
   },
-  "homepage": "https://github.com/MrPeak/sketch-parser#readme",
+  "homepage": "https://github.com/MrPeak/sketch-marker#readme",
   "devDependencies": {
+    "co-mocha": "^1.2.0",
     "eslint": "^3.19.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.4.1"
   },
   "dependencies": {
-    "decompress": "^4.2.0",
+    "color": "^1.0.3",
     "fs-extra": "^3.0.1",
-    "mz": "^2.6.0",
-    "power-assert": "^1.4.2"
+    "lodash": "^4.17.4",
+    "power-assert": "^1.4.2",
+    "sketch-parser": "^1.1.1"
   }
 }
